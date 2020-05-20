@@ -16,7 +16,7 @@ soma*=3
 console.log(soma)
 
 // Qual é o valor da variável `soma` até aqui?
-72
+console.log(72)
 
 // Declare uma variável chamada `souninja`, atribuindo à ela o valor booleano que representa `verdadeiro`.
 var souninja = true
