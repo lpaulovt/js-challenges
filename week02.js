@@ -54,3 +54,10 @@ console.log(isNotNull(2,2))
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //Preencha todos os valores corretamente!
+
+
+// Agora invoque novamente a função criada acima, mas passando todos os três argumentos necessários.
+console.log(isNotNull(2,2,2))
+
+// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
+//O valor é 10
