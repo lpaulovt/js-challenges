@@ -29,5 +29,6 @@ function value(number){
 // Invoque a função criada acima.
 
 console.log(value(20))
-console.log(noValue)
 
+// Qual o retorno da função? (Use comentários de bloco).
+/*20*/ 
