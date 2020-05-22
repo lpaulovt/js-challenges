@@ -23,3 +23,11 @@ function value(number){
     noValue = number;
     return `O valor da variável agora é ${noValue}`
 }
+
+
+
+// Invoque a função criada acima.
+
+console.log(value(20))
+console.log(noValue)
+
