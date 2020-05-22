@@ -61,3 +61,27 @@ console.log(isNotNull(2,2,2))
 
 // Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
 //O valor é 10
+
+
+/*
+Crie uma função com as seguintes características:
+1. A função deve receber 3 argumentos.
+2. Se somente um argumento for passado, retorne o valor do argumento.
+3. Se dois argumentos forem passados, retorne a soma dos dois argumentos.
+4. Se todos os argumentos forem passados, retorne a soma do primeiro com o segundo, e o resultado, dividido pelo terceiro.
+5. Se nenhum argumento for passado, retorne o valor booleano `false`.
+6. E ainda, se nenhuma das condições acima forem atendidas, retorne `null`.
+*/
+function elseif(x,y,z){
+    if (x!=null && y==null && z==null){
+        return x
+    } else if(x!=null && y!= null && z==null) {
+        return x+y
+    } else if (x!=null && y!=null && z!=null){
+        return ((x+y)/z)
+    } else if (x==null && y==null && z==null){
+        return false
+    } else {
+        return null
+    }
+}
