@@ -48,3 +48,9 @@ function isNotNull(x, y, z){
         return "Preencha todos os valores corretamente!"
     }
 }
+
+// Invoque a função criada acima, passando só dois números como argumento.
+console.log(isNotNull(2,2))
+
+// Qual o resultado da invocação acima? (Use comentários para mostrar o valor retornado).
+//Preencha todos os valores corretamente!
