@@ -32,3 +32,19 @@ console.log(value(20))
 
 // Qual o retorno da função? (Use comentários de bloco).
 /*20*/ 
+
+
+/*
+Crie uma função com as seguintes características:
+1. A função deve receber 3 argumentos;
+2. Se qualquer um dos três argumentos não estiverem preenchidos, a função deve retornar a string:
+    Preencha todos os valores corretamente!
+3. O retorno da função deve ser a multiplicação dos 3 argumentos, somando `2` ao resultado da multiplicação.
+*/
+function isNotNull(x, y, z){
+    if(x!=null && y!=null && z!=null){
+        return "O valor é "+((x*y*z)+2)
+    } else {
+        return "Preencha todos os valores corretamente!"
+    }
+}
