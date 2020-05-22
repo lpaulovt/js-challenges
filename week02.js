@@ -8,3 +8,18 @@ var result = sum(5,5);
 
 // Qual o valor atualizado dessa variável?
 console.log(result);
+
+
+// Declare uma nova variável, sem valor.
+var noValue;
+
+/*
+Crie uma função que adicione um valor à variável criada acima, e retorne a string:
+    O valor da variável agora é VALOR.
+Onde VALOR é o novo valor da variável.
+*/
+
+function value(number){
+    noValue = number;
+    return `O valor da variável agora é ${noValue}`
+}
