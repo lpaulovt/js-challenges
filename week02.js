@@ -93,3 +93,5 @@ console.log(elseif(1))
 //1
 console.log(elseif(1,1))
 //2
+console.log(elseif(1,1,1))
+//2
